@@ -1,8 +1,8 @@
 <?php
      //サーバ
-    $dsn = 'mysql:dbname=tb270100db;host=localhost';
-    $user='tb-270100';
-    $password = 'sGccyLtD4w';
+    $dsn = 'mysql:dbname=*******';
+    $user='********';
+    $password = '*********';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE =>PDO::ERRMODE_WARNING));
     //なかったらサーバのテーブル作成
     $sql = "CREATE TABLE IF NOT EXISTS tbtest_user"
