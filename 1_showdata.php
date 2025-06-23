@@ -15,9 +15,9 @@
     $userid = $_SESSION['id'];
 
      //サーバ
-    $dsn = 'mysql:dbname=tb270100db;host=localhost';
-    $user='tb-270100';
-    $password = 'sGccyLtD4w';
+    $dsn = 'mysql:dbname=********;host=localhost';
+    $user='********';
+    $password = '**********';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE =>PDO::ERRMODE_WARNING));
     
     if(!empty($_POST['logout'])){
